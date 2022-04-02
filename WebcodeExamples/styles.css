@@ -1,0 +1,20 @@
+/*
+ * CSS is for styling, you can do styling in the HTML file alone but it is much more limited and can make the code really messy.
+ * One thing I want to get down is instead of calling for colors by name, to use their RGB hex values instead.
+ */
+
+body {
+  background-color: #ff5050; /* <-- This is how RGB Hex is done in CSS and HTML, it works like this #[RR][GG][BB]. */
+}
+h1 {
+  color: blue;
+}
+p {
+    /*
+     * Im working with pixels right now, but because not everyone has the same monitor resolution as I do, I will be switching to something that is more adaptable to different resolutions later.
+     */
+    border: 3px solid #000000;
+    padding: 10px;
+    margin: 30px;
+    color: #000000;
+}
